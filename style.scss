@@ -7,66 +7,68 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(212, 45%, 89%);
-}
 
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    /*-----MAIN-----*/
+    .imageBox {
+      width: 288px;
+      height: 288px;
+      margin-top: 20px;
 
-/*-----MAIN-----*/
-.imageBox {
-  width: 288px;
-  height: 288px;
-  margin-top: 20px;
-
-  img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
-}
-
-.card {
-  width: 320px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 20px;
-  .container {
-    width: 85%;
-
-    .outfit-p {
-      font-family: "Outfit", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 15px;
-      color: hsl(220, 15%, 55%);
-    }
-    .outfit-h2 {
-      font-family: "Outfit", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-      color: hsl(218, 44%, 22%);
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
     }
 
+    .card {
+      width: 320px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      .container {
+        width: 85%;
+
+        .outfit-p {
+          font-family: "Outfit", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 15px;
+          color: hsl(220, 15%, 55%);
+        }
+        .outfit-h2 {
+          font-family: "Outfit", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 22px;
+          color: hsl(218, 44%, 22%);
+        }
+      }
+    }
+  }
+  /*-----FOOTER-----*/
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
   }
 }
-
-
-/*-----FOOTER-----*/
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin-top: 10px;
-
-  a {
-    color: hsl(228, 45%, 44%);
-  }
-}
-
 /* <uniquifier>: Use a unique and descriptive class name
  <weight>: Use a value from 100 to 900
 */

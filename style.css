@@ -7,21 +7,30 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(212, 45%, 89%);
+  /*-----FOOTER-----*/
 }
-
-/*-----MAIN-----*/
-.imageBox {
+html main,
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*-----MAIN-----*/
+}
+html main .imageBox,
+body main .imageBox {
   width: 288px;
   height: 288px;
   margin-top: 20px;
 }
-.imageBox img {
+html main .imageBox img,
+body main .imageBox img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-
-.card {
+html main .card,
+body main .card {
   width: 320px;
   height: 500px;
   display: flex;
@@ -31,10 +40,12 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
 }
-.card .container {
+html main .card .container,
+body main .card .container {
   width: 85%;
 }
-.card .container .outfit-p {
+html main .card .container .outfit-p,
+body main .card .container .outfit-p {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -42,21 +53,23 @@ body {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
-.card .container .outfit-h2 {
+html main .card .container .outfit-h2,
+body main .card .container .outfit-h2 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 22px;
   color: hsl(218, 44%, 22%);
 }
-
-/*-----FOOTER-----*/
-.attribution {
+html .attribution,
+body .attribution {
   font-size: 11px;
   text-align: center;
   margin-top: 10px;
 }
-.attribution a {
+html .attribution a,
+body .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
