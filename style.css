@@ -1,0 +1,65 @@
+html,
+body {
+  width: 100%;
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.imageBox {
+  width: 288px;
+  height: 288px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.container {
+  width: 85%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900
+*/
+.outfit-p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.outfit-h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
